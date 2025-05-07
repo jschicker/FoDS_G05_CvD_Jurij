@@ -62,7 +62,7 @@ pipe.fit(X_train, y_train)
 
 y_pred = pipe.predict(X_test)
 
-
+print(y_pred)
 # Make predictions
 # Accuracy
 print("Accuracy:", accuracy_score(y_test, y_pred))
