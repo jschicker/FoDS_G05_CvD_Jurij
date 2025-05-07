@@ -21,7 +21,7 @@ def knn_predicitons(X_train,X_test,y_train):
                 knn__weights=knn_weights,
                 knn__metric=knn_metric)
 
-    # fit and return predicitons
+    # fit and return predictions
     pipe.fit(X_train, y_train)
     y_pred = pipe.predict(X_test)
 
